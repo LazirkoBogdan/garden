@@ -138,6 +138,10 @@ export const GAME_GRID_CONFIG = {
 export const RENDERER = {
   antialias: false,
   pixelRatio: window.devicePixelRatio,
+  screen: {
+    width: 1920,
+    height: 1080,
+  },
   shadow: {
     enabled: true,
     type: THREE.PCFShadowMap,
