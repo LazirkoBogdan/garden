@@ -3,7 +3,7 @@
 import * as THREE from 'three';
 import { SceneManagerConfig } from './core/Managers/SceneManager';
 
-export const DEBUG = false;
+export const DEBUG = true;
 
 export const SCENE = {
   backgroundColor: 0xa0a0a0,
